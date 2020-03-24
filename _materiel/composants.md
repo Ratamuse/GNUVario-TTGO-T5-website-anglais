@@ -1,5 +1,6 @@
 ---
 step: 3
+title: Hardware
 description: Components
 ---
 
