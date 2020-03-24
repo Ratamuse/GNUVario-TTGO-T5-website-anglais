@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "GNUVario-E : Le variomètre Open Source et Open Hardware"
+title: "GNUVario-E: The Open Source and Open Hardware variometer"
 description: >- # this means to ignore newlines until "baseurl:"
-  GNUVario-E est un projet visant à distribuer un logiciel open source
-  et un variomètre open hardware basé sur la plate-forme ESP32.
+  GNUVario-E is a project to distribute open source firmware
+   and an open hardware variometer based on the ESP32 platform.
   
 baseurl: "/GNUVario-TTGO-T5-website-anglais" # the subpath of your site, e.g. /blog
 #baseurl: "/GNUVarioFR-E" # the subpath of your site, e.g. /blog
