@@ -1,5 +1,6 @@
 ---
 step: 2
+title: Hardware
 description: PCB
 ---
 
