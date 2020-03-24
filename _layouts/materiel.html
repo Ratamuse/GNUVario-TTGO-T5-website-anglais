@@ -2,7 +2,7 @@
 layout: page
 ---
   <div class="materiel_summary">
-    <h2>Description du matériel</h2>
+    <h2>Material description</h2>
     <ul>
       <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 1-PCB.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
       {%- assign materiel_steps = site.materiel | sort : 'step' -%}
