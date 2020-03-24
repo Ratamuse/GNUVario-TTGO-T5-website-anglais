@@ -2,7 +2,7 @@
 layout: page
 ---
   <div class="slicer_summary">
-    <h2>Imprimer ou faire imprimer son boitier</h2>
+    <h2>Print or have your case printed</h2>
     <ul>
       <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 2-boitier3d.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
       {%- assign slicer_steps = site.slicer | sort : 'step' -%}
@@ -34,14 +34,14 @@ layout: page
 
   <div class="tuto_nav">
       {%- if prev_step -%}
-      <a href="{{ prev_step.url | relative_url }}" class="slicer_previous">< Precedent</a>
+      <a href="{{ prev_step.url | relative_url }}" class="slicer_previous">< Previous</a>
       {%- endif -%}
-      <a href="{{ site.baseurl }}{% link 2-boitier3d.md %}" class="slicer_home">Debut</a>
+      <a href="{{ site.baseurl }}{% link 2-boitier3d.md %}" class="slicer_home">Home</a>
       {%- if next_step -%}
-      <a href="{{ next_step.url | relative_url }}" class="slicer_next">Suivant ></a>
+      <a href="{{ next_step.url | relative_url }}" class="slicer_next">Next ></a>
       {%- else -%}
         {%- if page.description == "Introduction" -%}
-          <a href="{{ first_step.url | relative_url }}" class="slicer_next">Suivant</a>
+          <a href="{{ first_step.url | relative_url }}" class="slicer_next">Next</a>
         {%- endif -%}
       {%- endif -%}  
     </ul>
