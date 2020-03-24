@@ -1,0 +1,50 @@
+---
+layout: page
+---
+  <div class="slicer_summary">
+    <h2>Imprimer ou faire imprimer son boitier</h2>
+    <ul>
+      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 2-boitier3d.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
+      {%- assign slicer_steps = site.slicer | sort : 'step' -%}
+      {%- for slicer_step in slicer_steps -%}
+        {%- if forloop.first -%}
+          {%- assign first_step = slicer_step -%}
+        {%- endif -%}
+      
+        {%- if page.description == slicer_step.description -%}
+          {%- unless forloop.first -%}
+            {%- assign prev_step = tmpprev -%}
+          {%- endunless -%}
+          {%- unless forloop.last -%}
+            {%- assign next_step = slicer_steps[forloop.index] -%}
+          {%- endunless -%}
+          <li><strong><a href="{{ slicer_step.url | relative_url }}">{{ slicer_step.description }}</a></strong></li>
+        {%- else -%}
+          <li><a href="{{ slicer_step.url | relative_url }}">{{ slicer_step.description }}</a></li>
+        {%- endif -%}
+	{%- assign tmpprev = slicer_step -%}  
+      {%- endfor -%}
+    </ul>
+  </div>
+  
+  <div class="tutorial">
+    <h2>{{ page.description }}</h2>
+    {{ content }}
+  </div>
+
+  <div class="tuto_nav">
+      {%- if prev_step -%}
+      <a href="{{ prev_step.url | relative_url }}" class="slicer_previous">< Precedent</a>
+      {%- endif -%}
+      <a href="{{ site.baseurl }}{% link 2-boitier3d.md %}" class="slicer_home">Debut</a>
+      {%- if next_step -%}
+      <a href="{{ next_step.url | relative_url }}" class="slicer_next">Suivant ></a>
+      {%- else -%}
+        {%- if page.description == "Introduction" -%}
+          <a href="{{ first_step.url | relative_url }}" class="slicer_next">Suivant</a>
+        {%- endif -%}
+      {%- endif -%}  
+    </ul>
+    
+
+  </div>

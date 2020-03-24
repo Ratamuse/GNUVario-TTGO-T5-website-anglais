@@ -1,0 +1,125 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "GNUVario-E : Le variomètre Open Source et Open Hardware"
+description: >- # this means to ignore newlines until "baseurl:"
+  GNUVario-E est un projet visant à distribuer un logiciel open source
+  et un variomètre open hardware basé sur la plate-forme ESP32.
+  
+baseurl: "/GNUVario-TTGO-T5-website-anglais" # the subpath of your site, e.g. /blog
+#baseurl: "/GNUVarioFR-E" # the subpath of your site, e.g. /blog
+#baseurl: "/GNUVario-TTGO-T5-website" # the subpath of your site, e.g. /blog
+
+#url: "https://prunkdump.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#url:  "https://jpg63.github.io"
+url: "https://ratamuse.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+#twitter_username: 
+#github_username:  prunkdump
+#github_username:  jpg63
+github_username:  ratamuse
+
+collections:
+  - materiel
+  - slicer
+  - tutorials
+  - logiciel
+  - code
+  - config
+  - manuel
+  - faq
+collections:
+  materiel:
+    output: true
+  logiciel:
+    output: true
+  code:
+    output: true
+  config:
+    output: true
+  slicer:
+    output: true
+  tutorials:
+    output: true
+  manuel:
+    output: true
+  faq:
+    output: false
+defaults:
+  - scope:
+      path: ""
+      type: "materiel"
+    values:
+      layout: materiel
+      title: Matériel
+  - scope:
+      path: ""
+      type: "logiciel"
+    values:
+      layout: logiciel
+      title: Logiciel
+  - scope:
+      path: ""
+      type: "code"
+    values:
+      layout: code
+      title: Code
+  - scope:
+      path: ""
+      type: "config"
+    values:
+      layout: config
+      title: Configuration
+  - scope:
+      path: ""
+      type: "slicer"
+    values:
+      layout: slicer
+      title: Boitier3d
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: tutorial
+      title: Matériel
+  - scope:
+      path: ""
+      type: "manuel"
+    values:
+      layout: manuel
+      title: Manuel Utilisateur
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+theme: jekyll-theme-cayman

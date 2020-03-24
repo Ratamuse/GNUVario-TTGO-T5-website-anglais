@@ -1,0 +1,1 @@
+![{{include.name}}]({{ "/assets/logiciel_img/" | append: include.name | absolute_url }})

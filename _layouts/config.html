@@ -1,0 +1,50 @@
+---
+layout: page
+---
+  <div class="config_summary">
+    <h2>Configuration of Gnuvario-E</h2>
+    <ul>
+      <li>{% if page.description == "Introduction" %}<strong>{% endif %}<a href="{{ site.baseurl }}{% link 6-configuration.md %}">Introduction</a>{% if page.description == "Introduction" %}</strong>{% endif %}</li>
+      {%- assign config_steps = site.config | sort : 'step' -%}
+      {%- for config_step in config_steps -%}
+        {%- if forloop.first -%}
+          {%- assign first_step = config_step -%}
+        {%- endif -%}
+      
+        {%- if page.description == config_step.description -%}
+          {%- unless forloop.first -%}
+            {%- assign prev_step = tmpprev -%}
+          {%- endunless -%}
+          {%- unless forloop.last -%}
+            {%- assign next_step = config_steps[forloop.index] -%}
+          {%- endunless -%}
+          <li><strong><a href="{{ config_step.url | relative_url }}">{{ config_step.description }}</a></strong></li>
+        {%- else -%}
+          <li><a href="{{ config_step.url | relative_url }}">{{ config_step.description }}</a></li>
+        {%- endif -%}
+	{%- assign tmpprev = config_step -%}  
+      {%- endfor -%}
+    </ul>
+  </div>
+  
+  <div class="tutorial">
+    <h2>{{ page.description }}</h2>
+    {{ content }}
+  </div>
+
+  <div class="tuto_nav">
+      {%- if prev_step -%}
+      <a href="{{ prev_step.url | relative_url }}" class="config_previous">< Previous</a>
+      {%- endif -%}
+      <a href="{{ site.baseurl }}{% link 6-configuration.md %}" class="config_home">Home</a>
+      {%- if next_step -%}
+      <a href="{{ next_step.url | relative_url }}" class="config_next">Next ></a>
+      {%- else -%}
+        {%- if page.description == "Introduction" -%}
+          <a href="{{ first_step.url | relative_url }}" class="config_next">Next</a>
+        {%- endif -%}
+      {%- endif -%}  
+    </ul>
+    
+
+  </div>
