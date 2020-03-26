@@ -7,7 +7,7 @@ description: Buttons
 **UTILISATION DES TOUCHES**                                                                                       
  
 | Screen        | Button    | Function                                                         |
-| ------------- | : ------- :| -------------------------------------------------------------- |
+| ------------- | : -------:| --------------------------------------------------------------   |
 | Init          | Left      | switching to Wifi mode                                           |
 | Init          | Right     | Calibration                                                      |
 |               |           |                                                                  |
