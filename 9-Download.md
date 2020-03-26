@@ -2,6 +2,6 @@
 layout: default
 title: Download
 description: Download
-linkmsg: Download page 
+linkmsg: Clic to go on download page 
 linktarget: "http://gnuvario-e.yj.fr"
 ---

@@ -6,7 +6,7 @@ description: Screen description
 
 Here is the description of the GnuVario-E screen
 
-{%include manuelimg.md name="ecran_vario.jpg"%}
+|                                  |               |{%include manuelimg.md name="1.54_screen.png"%}
 
 The time and the Duration of the flight are displayed alternately, the time is indicated with an "h" (12:36) and the duration with ":" (05:21).
 When the flight duration is less than 1 hour the indication is "min: sec".
