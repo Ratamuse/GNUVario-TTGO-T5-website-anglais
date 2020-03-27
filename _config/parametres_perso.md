@@ -68,7 +68,7 @@ Path to update storage site
 
 **general - TIME_ZONE**
 
-Defines the UTC time zone: (+2) in summer (+1) in winter
+Defines the UTC time zone: France: (+2) in summer (+1) in winter
 
 **general - PILOT_NAME**
 
@@ -85,12 +85,12 @@ Allows you to choose 1 wing, among the 4 possible
 **vario - SINKING_THRESHOLD**
 
 default: -2.0
-Triggering threshold
+Triggering sinking threshold
 
 **vario - CLIMBING_THRESHOLD**
 
 default: 0.2
-Zeroing trigger threshold
+trigger climbing threshold
 
 **vario - NEAR_CLIMBING_SENSITIVITY**
 
@@ -115,8 +115,8 @@ default: 0
 **vario - DISPLAY_INTEGRATED_CLIMB_RATE**
 
 default: 0
-1 = Display of the average fall rate over a period
-0 = Display of instantaneous fall rate
+1 = Display of the average sink rate over a period
+0 = Display of instantaneous sink rate
 
 **vario - CLIMB_PERIOD_COUNT**
 
@@ -131,9 +131,9 @@ drop rate display frequency
 **vario - RATIO_CLIMB_RATE**
 
 default: 2
-1 = Display of the fineness
-2 = Display of the average fall rate
-3 = Display of the 2 information alternately in the area to the right of the vario poster
+1 = Display of the glide ratio
+2 = Display of the average sink rate
+3 = Display of the both information alternately
 
 **vario - RATIO_MAX_VALUE**
 
@@ -143,12 +143,12 @@ max value used in calculating the sink rate
 **vario - RATIO_MIN_SPEED**
 
 default: 10.0
-minimum speed value used in calculating the fall rate
+minimum speed value used in calculating the sink rate
 
 **vario - SENT_LXNAV_SENTENCE**
 
 default: 1
-BT transmission format
+Bluetooth transmission format
 1 = LXNAV
 0 = LK8000
 
@@ -163,12 +163,12 @@ default: 0.5
 **flightstart - FLIGHT_START_VARIO_HIGH_THRESHOLD**
 
 default: 0.5
-Minimum vertical speed in m / s (low / high threshold) to trigger recording
+Minimum vertical speed in m/s (low/high threshold) to trigger recording
 
 **flightstart - FLIGHT_START_MIN_SPEED**
 
-default: 8 km / h
-Minimum ground speed in km / h triggering flight recording
+default: 8 km/h
+Minimum ground speed in km/h triggering flight recording
 
 **flightstart - VARIOMETER_RECORD_WHEN_FLIGHT_START**
 
