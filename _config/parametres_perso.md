@@ -54,12 +54,12 @@ Gps altitude compensation
 **system - MULTIDISPLAY_DURATION**
 
 default: 2000 milliseconds
-Display time of the different pages (in milliseconds)
+Alternative display time of the different pages (in milliseconds)
 
 **system - DEFAULT_DISPLAY_STAT_DURATION**
 
 default: 6
-time in sec display of the statistics screen at startup
+Duration in seconds of display time of the "statistics" page
 
 **system - URL_UPDATE**
 
@@ -110,7 +110,7 @@ default: 0
 **vario - ENABLE_NEAR_CLIMBING_BEEP**
 
 default: 0
-1 = Zero beep: beep when you are in an area between VARIOMETER_CLIMBING_THRESHOLD and VARIOMETER_NEAR_CLIMBING_SENSITIVITY
+1 = “thermal  sniffer”  function: beep when you are in an area between VARIOMETER_CLIMBING_THRESHOLD and VARIOMETER_NEAR_CLIMBING_SENSITIVITY
 
 **vario - DISPLAY_INTEGRATED_CLIMB_RATE**
 
@@ -126,7 +126,7 @@ integration time for calculating the sink rate
 **vario - SETTINGS_GLIDE_RATIO_PERIOD_COUNT**
 
 default: 20
-drop rate display frequency
+sink rate display frequency
 
 **vario - RATIO_CLIMB_RATE**
 
@@ -155,11 +155,13 @@ Bluetooth transmission format
 **flightstart - FLIGHT_START_MIN_TIMESTAMP**
 
 default: 15000 milliseconds
-Minimum time between flight start and start in milliseconds
+Minimum time between instrument switch on and flight start, in milliseconds
 
 **flightstart - FLIGHT_START_VARIO_LOW_THRESHOLD**
 
 default: 0.5
+Minimum vertical speed in m/s (low/high threshold) to trigger recording
+
 **flightstart - FLIGHT_START_VARIO_HIGH_THRESHOLD**
 
 default: 0.5
@@ -173,7 +175,7 @@ Minimum ground speed in km/h triggering flight recording
 **flightstart - VARIOMETER_RECORD_WHEN_FLIGHT_START**
 
 default: 1
-0 = deactivated, recording starts as soon as the GPS is operational
+0 = deactivated, recording starts as soon as the GPS is fixed
 1 = Activated, recording will start upon detection of the start of flight (horizontal speed greater than FLIGHT_START_MIN_SPEED and horizontal speed less than FLIGHT_START_VARIO_LOW_THRESHOLD or greater than FLIGHT_START_VARIO_HIGH_THRESHOLD
 
 ### wifi.cfg #
