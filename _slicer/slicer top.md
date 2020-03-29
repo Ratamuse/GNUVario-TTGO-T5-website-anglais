@@ -3,7 +3,7 @@ step: 3
 title: 3Dcase
 description: Top case
 ---
-[Profil download]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})
+[FFF profil download]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_haut.fff' | relative_url }})
 
 To create a nice rounded edge, the ideal is to print the upper case in layers of 0.1mm. But in order to reduce the printing time and have better grip of the first layers, we will create several printing steps.
 We will also see how to create and optimize the supports for easy removal.

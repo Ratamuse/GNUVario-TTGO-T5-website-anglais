@@ -4,7 +4,7 @@ title: 3Dcase
 description: Bottom case
 ---
 
-[Télécharger le profil]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_bas.fff' | relative_url }})
+[FFF profil download]({{ 'assets/fichiers/profils3Dprinter/Geeetech_A20M_boitier_bas.fff' | relative_url }})
 
 Once your file has been loaded into simplify3d, you will be able to change the profile settings to optimize printing.
 

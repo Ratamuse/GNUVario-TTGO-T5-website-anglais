@@ -1,6 +1,6 @@
 ---
 step: 3
-description: Soldering the TTGO-T5 board
+description: TTGO-T5 board soldering
 ---
 
 Before soldering the TTGO card, you must prepare it
