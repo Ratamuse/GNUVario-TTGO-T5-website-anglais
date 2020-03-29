@@ -8,7 +8,7 @@ description: Top case
 To create a nice rounded edge, the ideal is to print the upper case in layers of 0.1mm. But in order to reduce the printing time and have better grip of the first layers, we will create several printing steps.
 We will also see how to create and optimize the supports for easy removal.
 
-{% include slicerimg.md name="top 1.jpg" %}
+{% include slicerimg.md name="Top 1.jpg" %}
 
 # **Generate and optimize the printing of supports material:**
 
