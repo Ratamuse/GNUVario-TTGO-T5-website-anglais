@@ -14,18 +14,18 @@ There are several firmware versions which correspond to the different screen ver
    
 -- For GNUVario-E with 1.54'' screen     --
 
-Stable {% include lienfichier.md name="version" lien="update/Gnuvario154.bin" %}     
-Beta {% include lienfichier.md name="version" lien="update/Gnuvario154b.bin" %} 
+Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario154.bin" %}     
+Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario154b.bin" %} 
 
 -- For GNUVario-E with 2.90'' screen lanscape   --
 
-Stable {% include lienfichier.md name="version" lien="update/Gnuvario290.bin" %}      
-Beta {% include lienfichier.md name="version" lien="update/Gnuvario290b.bin" %} 
+Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario290.bin" %}      
+Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario290b.bin" %} 
 
 -- For GNUVario-E with 2.90'' screen portrait -- 
 
-Stable {% include lienfichier.md name="version" lien="update/Gnuvario291.bin" %}    
-Beta {% include lienfichier.md name="version" lien="update/Gnuvario291b.bin" %}       
+Stable {% include lienfichier.md name="firmware" lien="update/Gnuvario291.bin" %}    
+Beta {% include lienfichier.md name="firmware" lien="update/Gnuvario291b.bin" %}       
 
 **SD Card**     
 
