@@ -175,7 +175,7 @@ Minimum ground speed in km/h triggering flight recording
 **flightstart - VARIOMETER_RECORD_WHEN_FLIGHT_START**
 
 default: 1
-0 = deactivated, recording starts as soon as the GPS is fixed
+0 = deactivated, recording starts as soon as the GPS is fixed 
 1 = Activated, recording will start upon detection of the start of flight (horizontal speed greater than FLIGHT_START_MIN_SPEED and horizontal speed less than FLIGHT_START_VARIO_LOW_THRESHOLD or greater than FLIGHT_START_VARIO_HIGH_THRESHOLD
 
 ### wifi.cfg #

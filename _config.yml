@@ -17,7 +17,7 @@ title: "GNUVario-E: The Open Source and Open Hardware variometer"
 description: >- # this means to ignore newlines until "baseurl:"
   GNUVario-E is a project to distribute open source firmware
    and an open hardware variometer based on the ESP32 platform.
-  
+google_analytics: UA-162120331-1  
 baseurl: "/GNUVario-TTGO-T5-website-anglais" # the subpath of your site, e.g. /blog
 #baseurl: "/GNUVarioFR-E" # the subpath of your site, e.g. /blog
 #baseurl: "/GNUVario-TTGO-T5-website" # the subpath of your site, e.g. /blog
