@@ -44,7 +44,7 @@ Choice of 40% material and a honeycomb filling.
 
 **Onglet "Support"**
 
-Not necessary for this room. You can uncheck the box.
+Not necessary for this case. You can uncheck the box.
 
 {% include slicerimg.md name="Bottom 6.jpg" %}
 
