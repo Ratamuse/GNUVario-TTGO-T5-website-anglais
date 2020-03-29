@@ -21,34 +21,35 @@ For GNUVario-E with 2.90'' screen portrait
 la version {% include lienfichier.md name="Stable" lien="update/Gnuvario291.bin" %}    
 la version de {% include lienfichier.md name="Développement" lien="update/Gnuvario291b.bin" %}       
 
-**La carte SD**     
+**SD Card**     
 
-La carte SD embarque un site web et des fichiers de configuration. Il existe une arborescence pour la version stable et une pour la version beta
+The SD card embeds a website and configuration files. There is a tree structure for the stable version and one for the beta version
 
-RootSD pour la version {% include lienfichier.md name="Stable du Firmware" lien="fichier/RootSD_Stable.zip" %}     
-RootSD pour la version {% include lienfichier.md name="Beta du Firmware" lien="fichier/RootSD_Beta.zip" %}    
+RootSD for {% include lienfichier.md name="Stable firmware" lien="fichier/RootSD_Stable.zip" %}     
+RootSD for {% include lienfichier.md name="Beta firmware" lien="fichier/RootSD_Beta.zip" %}    
 
-**Le dossier www**     
+**www folder**     
 
-Sur la carte SD, le dossier www contient les fichiers nécessaires au fonctionnement du site web embarqué. Il existe une version pour la version stable et une pour la version beta.
+On the SD card, the www folder contains the files necessary for the operation of the embedded website. There is one version for the stable version and one for the beta version.
 
--- Les versions pour l'écran 1,54''     --
+-- The versions for the 1.54 '' screen     --
    
-www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario154" %}     
-www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario154b" %}    
+www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario154" %}     
+www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario154b" %}    
 
--- Les versions pour l'écran 2.90'' en paysage   --   
+-- The versions for the 2.90 '' screen in landscape mode   --   
    
-www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario290" %}     
-www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario290b" %}    
+www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario290" %}     
+www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario290b" %}    
 
--- Les versions pour l'écran 2.90'' en portrait   --    
+--  The 2.90 '' screen versions in portrait mode   --    
 
-www pour la version {% include lienfichier.md name="Stable du Firmware" lien="dl-web/Gnuvario291" %}     
-www pour la version {% include lienfichier.md name="Beta du Firmware" lien="dl-web/Gnuvario291b" %}    
+www for {% include lienfichier.md name="Stable firmware" lien="dl-web/Gnuvario291" %}     
+www for {% include lienfichier.md name="Beta firmware" lien="dl-web/Gnuvario291b" %}    
 
-**Le dossier AGL**
+**AGL folder**
 
-Sur la carte SD, le dossier ALG contient les fichiers nécessaires au fonctionnement de l'affichage de l'altitude AGL.
+On the SD card, the ALG folder contains the files necessary for the AGL calculations (part of france, belgium, italia, swizerland and germany).
+{% include logicielimg.md name="AGL.jpg" %}
 
-[Téléchargement ici](https://vps.skybean.eu/agl/)
+[Download here the files for your region](https://vps.skybean.eu/agl/)
