@@ -1,5 +1,6 @@
 ---
 step: 1
+title: Assembly
 description: Some soldering tips
 ---
 

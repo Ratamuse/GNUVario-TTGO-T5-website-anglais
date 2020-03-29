@@ -1,5 +1,6 @@
 ---
 step: 5
+title: Assembly
 description: Battery preparation
 ---
 

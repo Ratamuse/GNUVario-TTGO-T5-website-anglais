@@ -1,5 +1,6 @@
 ---
 step: 3
+title: Assembly
 description: TTGO-T5 board soldering
 ---
 

@@ -1,5 +1,6 @@
 ---
 step: 7
+title: Assembly
 description: Closing the case
 ---
 

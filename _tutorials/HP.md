@@ -1,5 +1,6 @@
 ---
 step: 4
+title: Assembly
 description: Speaker soldering 
 ---
 
