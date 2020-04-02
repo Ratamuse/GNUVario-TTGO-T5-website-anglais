@@ -5,7 +5,7 @@ description: Compiling with Arduino IDE
 
 Compile the code
 -----------------
-Beforehand, you must start the vario without the sdcard, **then** connect it to the PC via the USB socket. It will be recognized by the PC as a COMx serial interface (example: COM3).
+Beforehand, you must start the vario without the sdcard, **then** connect it to the PC via the USB socket. It will be recognized by the PC as a COMx serial interface (example: COM4).
 
 Now launch the Arduino IDE and open the sketch you want to compile. For example, the sketch **Gnuvario-E.ino**.
 
