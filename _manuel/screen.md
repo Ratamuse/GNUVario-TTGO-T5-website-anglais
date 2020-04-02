@@ -16,11 +16,10 @@ The time and the Duration of the flight are displayed alternately, the time is i
 When the flight duration is less than 1 hour the indication is "min: sec".
 After 1 hour flight we have "hour: min".
 
-The glide ratio and the rate of fall can be configured to have only one information of your choice or both alternately
+The glide ratio and the sink rate can be configured to have only one information of your choice or both alternately
 
-The up / down indication arrow gives integrated information on associated X sec
-  at the fall rate
+The up / down indication arrow gives integrated information on associated X sec at the sink rate.
 
-Several indications are possible for the "registration" logo
+Several indications are possible for the "GPS status" icon.
 
 {% include manuelimg.md name="enregistrement.jpg" %}
