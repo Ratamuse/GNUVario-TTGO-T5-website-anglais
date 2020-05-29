@@ -8,7 +8,7 @@ Here is the general description of the Gnuvario-E firmware
 
 To operate the Gnuvario-E needs a firmware and an SD card with a particular organization
 
-**Le Firmware**      
+**Firmware**      
    
 There are several firmware versions which correspond to the different screen versions and to beta or stable versions
    
