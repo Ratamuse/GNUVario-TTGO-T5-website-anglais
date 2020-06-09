@@ -7,10 +7,10 @@ description: First update
 Before you can use Gnuvario-E you must install the software and prepare the SD card
 
 ### SD card preparation #
-Sur une cOn a blank MicroSD card formatted in Fat16 or 32, copy the contents of the RootSD folder to the root of the SD card.arte MicroSD vierge formatée en Fat16 ou 32, copier le contenu du dossier RootSD à la racine de la carte SD .   
+On a blank MicroSD card formatted in Fat16 or 32, copy the contents of the RootSD folder to the root of the SD card.   
 
 ### Gnuvario-E update #   
-Before updating the vario you must download and install the flash download tools from express
+Before updating the vario you must download and install the flash download tools from Espressif
 
 Flash Download Tools : <https://www.espressif.com/en/support/download/other-tools>
 

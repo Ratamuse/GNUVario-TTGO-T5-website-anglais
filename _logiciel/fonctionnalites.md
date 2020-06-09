@@ -1,10 +1,10 @@
 ---
 step: 2
 title: Firmware
-description: Fonctionnalities
+description: Features
 ---
 
-**Fonctionnalities**    
+**Features**    
 	
 Version 0.7
  - Adding log files
@@ -18,7 +18,7 @@ Version 0.7
  - Accelerometers calibration
 
 Version 0.1 to 0.6
-- Precise Vario with pressure sensor and accelerometers
+- Precise Vario with pressure sensor and accelerometer
 - GPS
 - Flight recording on SD card
 - E-Ink screen display
