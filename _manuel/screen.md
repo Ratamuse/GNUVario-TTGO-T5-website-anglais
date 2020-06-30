@@ -4,9 +4,9 @@ title: Manual
 description: Screen description
 ---
 
-Here is the description of the GnuVario-E screen
+You can switch between four screens on your variometer using the left and right buttons
 
-|                                  |               |{%include manuelimg.md name="1.54_screen.png"%}
+{%include manuelimg.md name="ecran291.svg"%}
 
 The time and the flight time are displayed alternately, the time is indicated with an "h" (12:36) and the flight time with ":" (05:21).
 When the flight duration is less than 1 hour the indication is "min: sec".
@@ -21,7 +21,7 @@ The up / down indication arrow gives integrated information on associated X sec 
 
 
 
-|                                  |               |{%include manuelimg.md name="Assemblage2.png"%}
+|                                  |               |{%include manuelimg.md name="1_ecran291.svg"%}
 
 
 
