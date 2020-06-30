@@ -21,11 +21,11 @@ The up / down indication arrow gives integrated information on associated X sec 
 
 
 
-|                                  |               |{%include manuelimg.md name="1_ecran291.svg"%}
+|                                  |               |{%include manuelimg.md name="1ecran291.svg"%}
 
 
 
-{%include manuelimg.md name="291.png"%}
+
 
 
 
