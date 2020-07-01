@@ -32,24 +32,29 @@ description: Buttons
 	
 **The start screen (Init) :**
 
-{% include manuelimg.md name="page_init.jpg" %}
+{% include manuelimg.md name="ecran291init.svg" %}
+
 
 **Wifi page :**
 
-{% include manuelimg.md name="page_wifi.jpg" %}
+{% include manuelimg.md name="ecran291wifireboot.svg" %}
 
-**Main page(Vario) :**
 
-{% include manuelimg.md name="page_vario.jpg" %}
+**Main page :**
+
+{% include manuelimg.md name="ecran291mainpage.svg" %}
+
 
 **Volume adjustment page (Sound) :**
 
-{% include manuelimg.md name="page_volume.jpg" %}
+{% include manuelimg.md name="ecran291sound.svg" %}
+
 
 **Deep sleep page :**
 
-{% include manuelimg.md name="page_sleep.jpg" %}
+{% include manuelimg.md name="ecran291standby.svg" %}
+
 
 **Calibration page  :**
 
-{% include manuelimg.md name="calibration.jpg" %}
+{% include manuelimg.md name="ecran291calib2.svg" %}

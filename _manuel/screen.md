@@ -45,21 +45,29 @@ After 1 hour flight we have "hour: min".
 
 **Second screen**
 
+1/ Latitude and longitude of your location.
+
+2/ Speed
+
+3/ Without GPS location and/or when your speed is lower than 5 km/h, the displayed heading is the magnetic heading (like a compass). With GPS and when your speed is higher than 5km/h, the heading is the direction of your movement.
+
 
 |                                  |               |{%include manuelimg.md name="ecran291b.svg"%}
 
 
+**Third screen**
+
+1/ Sound level
 
 
+|                                  |               |{%include manuelimg.md name="ecran291c.svg"%}
 
 
+**Fourth screen**
+
+1/ Statistics
 
 
-
-
-
-
-
-
+|                                  |               |{%include manuelimg.md name="ecran291d.svg"%}
 
 
