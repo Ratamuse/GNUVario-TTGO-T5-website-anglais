@@ -8,7 +8,7 @@ You can switch between four screens on your variometer using the left and right 
 
 {%include manuelimg.md name="ecran291.svg"%}
 
-**First screen**{: style="color:   #138ca2; opacity: 1;" }
+## **First screen**{: style="color:   #138ca2; opacity: 1;" }
 
 Waiting GPS location
 
