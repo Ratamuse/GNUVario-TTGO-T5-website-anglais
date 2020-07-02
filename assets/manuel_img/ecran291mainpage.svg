@@ -36,9 +36,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="83.755642"
-     inkscape:cy="314.45088"
+     inkscape:zoom="2.8"
+     inkscape:cx="343.69503"
+     inkscape:cy="571.59374"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -161,15 +161,12 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23238373px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08825348"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23239684px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08825348"
        x="-72.844749"
        y="260.37784"
        id="text898-4"><tspan
          sodipodi:role="line"
-         id="tspan896"
-         x="-72.844749"
-         y="260.37784"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23238373px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.08825348">AGL</tspan></text>
+         id="tspan912">Alti</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.23238373px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08825349"
@@ -195,15 +192,14 @@
          style="stroke-width:0.08080968">Speed</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.11322975px;line-height:1.25;font-family:'Jersey M54';-inkscape-font-specification:'Jersey M54, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25283012"
-       x="-67.324883"
-       y="301.54123"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.11308002px;line-height:1.25;font-family:'Jersey M54';-inkscape-font-specification:'Jersey M54, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25283012"
+       x="-63.072651"
+       y="301.44675"
        id="text833-1-0"><tspan
          sodipodi:role="line"
-         id="tspan948-2"
-         x="-67.324883"
-         y="301.54123"
-         style="stroke-width:0.25283012">25</tspan></text>
+         id="tspan910"
+         x="-63.072651"
+         y="301.44675">0</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.35181987px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -50.478558,288.74378 -0.069,15.33252"

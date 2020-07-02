@@ -1,10 +1,10 @@
 ---
 step: 2
 title: Manual
-description: Buttons
+description: Pushbuttons
 ---
 
-**UTILISATION DES TOUCHES**                                                                                       
+## **Functions**{: style="color:   #138ca2; opacity: 1;" }                                                                                     
  
 | Screen        | Button    | Function                                                         |
 | ------------- | : -------:| --------------------------------------------------------------   |
@@ -30,31 +30,33 @@ description: Buttons
 | Calibration   | Left      | Exit calibration mode (reboot)                                   |
  
 	
-**The start screen (Init) :**
+## **The start screen (Init) :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291init.svg" %}
 
 
-**Wifi page :**
+
+
+## **Wifi page :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291wifireboot.svg" %}
 
 
-**Main page :**
+## **Main page :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291mainpage.svg" %}
 
 
-**Volume adjustment page (Sound) :**
+## **Volume adjustment page (Sound) :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291sound.svg" %}
 
 
-**Deep sleep page :**
+## **Deep sleep page :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291standby.svg" %}
 
 
-**Calibration page  :**
+## **Calibration page  :**{: style="color:   #138ca2; opacity: 1;" }
 
 {% include manuelimg.md name="ecran291calib2.svg" %}

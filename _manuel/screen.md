@@ -1,14 +1,14 @@
 ---
 step: 1
 title: Manual
-description: Screen description
+description: Screen description 
 ---
 
 You can switch between four screens on your variometer using the left and right buttons
 
 {%include manuelimg.md name="ecran291.svg"%}
 
-**First screen**
+**First screen**{: style="color:   #138ca2; opacity: 1;" }
 
 Waiting GPS location
 
@@ -43,7 +43,7 @@ After 1 hour flight we have "hour: min".
 
 
 
-**Second screen**
+**Second screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Latitude and longitude of your location.
 
@@ -55,7 +55,7 @@ After 1 hour flight we have "hour: min".
 |                                  |               |{%include manuelimg.md name="ecran291b.svg"%}
 
 
-**Third screen**
+**Third screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Sound level
 
@@ -63,7 +63,7 @@ After 1 hour flight we have "hour: min".
 |                                  |               |{%include manuelimg.md name="ecran291c.svg"%}
 
 
-**Fourth screen**
+**Fourth screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Statistics
 
