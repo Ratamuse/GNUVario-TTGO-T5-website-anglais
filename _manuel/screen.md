@@ -43,7 +43,7 @@ After 1 hour flight we have "hour: min".
 
 
 
-**Second screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Second screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Latitude and longitude of your location.
 
@@ -55,7 +55,7 @@ After 1 hour flight we have "hour: min".
 |                                  |               |{%include manuelimg.md name="ecran291b.svg"%}
 
 
-**Third screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Third screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Sound level
 
@@ -63,7 +63,7 @@ After 1 hour flight we have "hour: min".
 |                                  |               |{%include manuelimg.md name="ecran291c.svg"%}
 
 
-**Fourth screen**{: style="color:   #138ca2; opacity: 1;" }
+## **Fourth screen**{: style="color:   #138ca2; opacity: 1;" }
 
 1/ Statistics
 
