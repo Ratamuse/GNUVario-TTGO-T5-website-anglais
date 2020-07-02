@@ -10,9 +10,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="44.293282mm"
-   height="93.685051mm"
-   viewBox="0 0 44.293282 93.685051"
+   width="39.942028mm"
+   height="84mm"
+   viewBox="0 0 39.942029 84"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -35,9 +35,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-252.12813"
-     inkscape:cy="197.04498"
+     inkscape:zoom="0.7"
+     inkscape:cx="-546.25607"
+     inkscape:cy="197.04494"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -68,48 +68,54 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(9.7340543,-242.77712)">
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15327561;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect846"
-       width="40.140007"
-       height="89.531776"
-       x="-7.6574163"
-       y="244.85376" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.91384172px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12284225"
-       x="-4.0575733"
-       y="278.13898"
-       id="text855"><tspan
-         sodipodi:role="line"
-         id="tspan869"
+     transform="translate(9.734054,-252.46216)">
+    <g
+       id="g832"
+       transform="matrix(0.89201041,0,0,0.89201041,-0.83519716,36.118424)">
+      <rect
+         y="244.85376"
+         x="-7.6574163"
+         height="89.531776"
+         width="40.140007"
+         id="rect846"
+         style="opacity:1;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:0.15327561;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke" />
+      <text
+         id="text855"
+         y="278.13898"
          x="-4.0575733"
-         y="278.13898">Connected to</tspan><tspan
-         sodipodi:role="line"
-         id="tspan871"
-         x="-4.0575733"
-         y="284.28128">   GNU-BOX</tspan><tspan
-         sodipodi:role="line"
-         id="tspan873"
-         x="-4.0575733"
-         y="290.42358"></tspan><tspan
-         sodipodi:role="line"
-         id="tspan875"
-         x="-4.0575733"
-         y="296.56589">       Start</tspan><tspan
-         sodipodi:role="line"
-         id="tspan877">192.168.0.69</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-1.418578"
-       y="259.733"
-       id="text833"><tspan
-         sodipodi:role="line"
-         id="tspan831"
-         x="-1.418578"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.91384172px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12284225"
+         xml:space="preserve"><tspan
+           y="278.13898"
+           x="-4.0575733"
+           id="tspan869"
+           sodipodi:role="line">Connected to</tspan><tspan
+           y="284.28128"
+           x="-4.0575733"
+           id="tspan871"
+           sodipodi:role="line">   GNU-BOX</tspan><tspan
+           y="290.42358"
+           x="-4.0575733"
+           id="tspan873"
+           sodipodi:role="line" /><tspan
+           y="296.56589"
+           x="-4.0575733"
+           id="tspan875"
+           sodipodi:role="line">       Start</tspan><tspan
+           y="302.70819"
+           x="-4.0575733"
+           id="tspan877"
+           sodipodi:role="line">192.168.0.69</tspan></text>
+      <text
+         id="text833"
          y="259.733"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.69999981px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">WIFI</tspan></text>
+         x="-1.418578"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:12.69999981px;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="259.733"
+           x="-1.418578"
+           id="tspan831"
+           sodipodi:role="line">WIFI</tspan></text>
+    </g>
   </g>
 </svg>

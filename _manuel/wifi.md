@@ -7,7 +7,7 @@ description: Wifi
 The Gnuvario-E has a web server, which will allow you to configure the Gnuvario, update it,
   recover flight files but also copy or recover files on the SDCard
  
-{% include manuelimg.md name = "connection_wifi.jpg"%}
+{% include manuelimg.md name = "ecran291wifireboot.png"%}
 
 **WiFi settings**
 
@@ -36,12 +36,12 @@ At startup, press the left button
 
 As soon as the Gnuvario-E is connected to the Wifi network, the address of the web page is displayed on the screen:
 
-{% include manuelimg.md name = "wifi-1.jpg"%}
+
 
 **Connection to the web page**
 
-In your web browser, log in with the address provided.
+In your web browser, login with the IP address provided.
 
-{% include manuelimg.md name = "wifi-2.jpg"%}
+
 
 

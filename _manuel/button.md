@@ -32,31 +32,31 @@ description: Pushbuttons
 	
 ## **The start screen (Init) :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291init.svg" %}
+{% include manuelimg.md name="ecran291init.png" %}
 
 
 
 
 ## **Wifi page :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291wifireboot.svg" %}
+{% include manuelimg.md name="ecran291wifireboot.png" %}
 
 
 ## **Main page :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291mainpage.svg" %}
+{% include manuelimg.md name="ecran291mainpage.png" %}
 
 
 ## **Volume adjustment page (Sound) :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291sound.svg" %}
+{% include manuelimg.md name="ecran291sound.png" %}
 
 
 ## **Deep sleep page :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291standby.svg" %}
+{% include manuelimg.md name="ecran291standby.png" %}
 
 
 ## **Calibration page  :**{: style="color:   #138ca2; opacity: 1;" }
 
-{% include manuelimg.md name="ecran291calib2.svg" %}
+{% include manuelimg.md name="ecran291calib2.png" %}
